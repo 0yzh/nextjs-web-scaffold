@@ -1,0 +1,25 @@
+@use 'sass:map';
+
+// GLOBAL COLORS
+$colors: (
+  black: #202124,
+  grey: #5f6368,
+  blue: #1a73e8,
+  white: #fff,
+  green: #34a853,
+);
+
+// GLOBAL FONTS
+$fonts: (
+  inter: 'Inter',
+  segoe_ui: 'Segoe UI',
+);
+
+// Vars functions
+@function color($c) {
+  @return map.get($colors, $c);
+}
+
+@function font($f) {
+  @return map.get($fonts, $f);
+}

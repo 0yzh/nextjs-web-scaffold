@@ -1,0 +1,14 @@
+// Sitewide layout styles
+section {
+  padding: 1rem 2rem;
+  max-width: 48rem;
+}
+
+.container {
+  max-width: 37.5rem;
+}
+
+section,
+.container {
+  margin: 0 auto;
+}

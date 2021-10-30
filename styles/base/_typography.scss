@@ -1,0 +1,10 @@
+@use 'variables' as *;
+
+a {
+  color: color(blue);
+}
+
+h1,
+.headline-1 {
+  color: color(black);
+}
