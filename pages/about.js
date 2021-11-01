@@ -3,7 +3,7 @@ import Link from 'next/link'
 const About = () => {
   return (
     <section>
-      <div className="container">
+      <div className="content-container">
         <h1 className="headline-1">about</h1>
         <Link href="/">
           <a>back to home</a>

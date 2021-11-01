@@ -15,6 +15,10 @@ $fonts: (
   segoe_ui: 'Segoe UI',
 );
 
+// GLOBAL SIZING
+$max-width-layout: 48rem;
+$max-width-content: 40rem;
+
 // Vars functions
 @function color($c) {
   @return map.get($colors, $c);

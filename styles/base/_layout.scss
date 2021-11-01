@@ -1,14 +1,14 @@
+@use 'variables' as *;
+
 // Sitewide layout styles
-section {
-  padding: 1rem 2rem;
-  max-width: 48rem;
-}
-
-.container {
-  max-width: 37.5rem;
-}
-
-section,
-.container {
+.layout-container {
+  max-width: $max-width-layout;
   margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.content-container {
+  max-width: $max-width-content;
+  margin: 0 auto;
+  padding: 0 2rem;
 }
